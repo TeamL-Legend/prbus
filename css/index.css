@@ -1,23 +1,38 @@
 body {
-  background-color: #b8b0b0;
+  background-color: #010f20;
   margin: 0;
   font-family: monospace;
 }
 
 .whcl {
-  background-color: #c7c5c58e;
+  background-color: #010f20;
 }
 
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  user-select: none;
 
   .txtext {
     font-size: 20px;
     color: #a19292;
     transition: 1s;
+  }
+}
+
+.faq {
+  display: flex;
+  margin-bottom: 200px;
+  justify-content: center;
+  height: 20vh;
+  text-decoration: none;
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
   }
 }
 
@@ -32,7 +47,7 @@ body {
 }
 
 .container {
-  background-color: #b8b0b0;
+  background-color: #010f20;
   color: white;
 
   span {
@@ -47,11 +62,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
   }
 
   .btn-b {
     border: 3px solid gray;
-    background-color: #b8b0b0;
+    background-color: #010f20;
     color: white;
     border-radius: 10px;
     width: 60px;
